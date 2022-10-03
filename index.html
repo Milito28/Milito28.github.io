@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://github.com/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="https://twitter.com/vicen_dur" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-twitter"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">Sobre mi</a>
+				<a class="nav-item" href="#projects">Proyectos</a>
+				<a class="nav-item" href="#social">Redes Sociales</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/foto perfil.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					Mi nombre es Vicente Durman tengo 19 años y soy tecnico en Desarrollo de software. Soy una persona que esta siempre preparada para nuevos desafíos, creo que el aprendizaje no tiene limites y soy muy dedicado en mis tareas. Siempre predispuesto a aprender mas, a ayudar a mis compañeros y lograr los objetivos solicitados.
+					
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Proyectos</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/locademia.JPG" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Este es unos de los proyectos que hice en la cuarentena para el equipo racing club. Me comunique con ellos y les gusto mi propuesta, y seguimos trabajando juntos hasta el dia de hoy.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/terranova.JPG" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Este es el ultimo proyecto que lleve a cabo, en mi opinion es el mejor que he realizado porque es el que realice con mayores conocimientos y practicas mas actuales.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Contacto</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://twitter.com/vicen_dur"><img class="" src="assets/img/Twitter-logo.svg.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.facebook.com/profile.php?id=100041869831788"><img class="" src="assets/img/facebook.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="https://twitter.com/vicen_dur">Vicente Durman "Programador"</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
